@@ -1,0 +1,17 @@
+{
+    "posts": [
+        {
+            "title": "My Cool Post",
+            "author": "Ayume Francis"
+        },
+        {
+            "title": "Another Awesome Post",
+            "author": "Ayume Francis"
+        }
+    ],
+    "profile": {
+        "first_name": "Ayume",
+        "last_name": "Francis",
+        "email": "ayudmin@gmail.com"
+    }
+}

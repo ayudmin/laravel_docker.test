@@ -2,6 +2,6 @@
 	* Learning Docker
 ##### Participants
 	* Ayume Francis
-		- laptop
-		- Desktop
+	  - laptop
+	  - Desktop
 	* Any Human on Earth

@@ -11,6 +11,7 @@ services:
       - ./src:/var/www/html
     depends_on:
       - mysql
+      - php
   mysql:
     image: mysql:8
     ports:

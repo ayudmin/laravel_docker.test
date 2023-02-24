@@ -1,0 +1,21 @@
+version: '2.1'
+
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx.dockerfile 
+    ports:
+      - 80:80
+    volumes:
+      - ./src:/var/www/html
+  mysql:
+    image: mysql:8
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_DATABASE: laravel_docker
+      - MYSQL_USER: laravel_docker
+      - MYSQL_PASSWORD: secret
+      - MYSQL_ROOT_PASSWORD: secret
+

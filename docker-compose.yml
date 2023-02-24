@@ -29,3 +29,11 @@ services:
       dockerfile: php.dockerfile
     volumes:
       - ./src:/var/www/html
+  composer:
+    build: 
+      context: .
+      dockerfile: composer.dockerfile
+    volumes:
+      - ./src:/var/www/html
+    working_dir: /var/www/html
+    

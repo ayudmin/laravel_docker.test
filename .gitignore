@@ -1,1 +1,5 @@
 mysql
+docker-compose.prod.yml
+nginx.prod.dockerfile
+nginx/default.prod.conf
+php.prod.dockerfile
